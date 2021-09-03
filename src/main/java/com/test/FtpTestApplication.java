@@ -26,7 +26,7 @@ public class FtpTestApplication implements ApplicationRunner {
 	@Autowired
 	private Environment environment;
 	
-	
+	// Bind the properties
 	@Autowired
 	private FTPSettings ftpSettings;
 	
